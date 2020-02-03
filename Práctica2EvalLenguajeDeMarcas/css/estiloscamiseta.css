@@ -1,0 +1,64 @@
+@import "estilosplantilla.css";
+
+
+#camiseta{
+    margin-left: 65%;  
+}
+#camiseta img {
+    border: 3px solid rgb(172,25,31);
+}
+h2{
+    font-size: small;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 20px;
+    top: 250px;
+    transform: translateX(263%) translateY(50%);
+}
+#cabecera{
+    font-size: medium;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 10px;
+    top: 260px;
+}
+main ul.detalles{
+    font-size: smaller;
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 30px;
+    top: 300px;
+}
+main #precio{
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    left: 73rem;
+    top: 35rem;
+}
+body main{
+    background-position: fixed;
+    height: 58vh;
+    width: 89vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    background-image:url(../img/fondogodin2.PNG);
+}
+#carro{
+    margin-top: 10rem;
+    padding: 5px;
+    background-color: rgb(172,25,31);
+    border-radius: 8px;
+}
+
+
+
+
+
+    
+    

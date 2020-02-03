@@ -1,0 +1,72 @@
+body div#fondo {
+    position:fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url("../img/fondo4.png");
+    z-index: -2;   
+}
+#franja{
+    width: 8%;
+    height: 45.8rem;
+    right: 16px;
+    position: absolute;
+}
+body h1 img{
+    margin: 0%;
+    font-size: 0;
+    height: 300px;
+    width: 300px;
+    margin-left: 21vw;
+    margin-top: -7vw;
+    width: 700px;
+    height: 450px;
+}
+body h1{
+    margin: 0%;
+    font-size: 0;
+    height: 20vh;
+    width: 89vw;
+    background-image: radial-gradient(white, blue);
+}
+header nav ul li{
+    display: inline-block;
+}
+header nav ul li a{
+    width: 100%;
+	color: white;
+	background: blue;
+	padding: 0.5rem;
+    text-align: center;
+    display: inline-block;
+    width: 20vw;
+    border-radius: 5rem;
+}
+.activa a{
+    background: cornflowerblue;
+}
+footer {
+    bottom: 0;
+    right: 0;
+    left: 0;
+    position: absolute;
+}
+footer p{
+    margin-right: 9rem;
+    text-align: right;
+    color: white;
+    line-height: 0.5rem;
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    min-height: 100vh;
+    color: white; 
+    margin-right: 0;
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;}
+ul a:hover{
+    color:rgb(172,25,31);;
+}

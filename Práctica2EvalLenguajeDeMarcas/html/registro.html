@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="es">
+    <head>
+        <meta charset="utf-8" />
+        <title>El Rincón Colchonero</title>
+        <link rel="stylesheet" href="../css/estilosregistro.css">
+        <style>
+                @import url('https://fonts.googleapis.com/css?family=Indie+Flower');
+        </style>
+    </head>
+    <body>
+        <div>
+        <header>
+            <h1><img src="../img/logo.png"></h1>
+            <nav>
+			    <ul>
+                    <li><a href="inicio.html">Inicio</a></li>
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="contacto.html">Contacto</a></li>
+                    <li class="activa"><a href="registro.html">Registro</a></li>
+			    </ul>
+            </nav>
+        </header>
+        <main>
+            <h2>"ganar, ganar, ganar, ganar y volver a ganar"
+            </h2>
+            <form>
+                <div id="formulario">
+                    <div id="formulario2">
+                    <label for="Usuario">Usuario:</label>
+                    <input type="text" name="Usuario" id="Usuario" maxlength="8" required>
+                    <br>
+                    <label for="Contraseña">Contraseña:</label>
+                    <input type="password" name="Contraseña" id="Contraseña" maxlength="8" required>
+                    <br>
+                    <label for="Contraseña2">Repetir Contraseña:</label>
+                    <input type="password" name="Contraseña2" id="Contraseña2" maxlength="8" required>
+                    <br>
+                    <label for="Correo">Correo electrónico:</label>
+                    <input type="text" name="Correo" id="Correo" maxlength="20" required>
+                    <br>
+                    <label for="Nombre">Nombre:</label>
+                    <input type="text" name="Nombre" id="Nombre" maxlength="15" required>
+                    <br>
+                    <label for="apellido1">Primer Apellido:</label>
+                    <input type="text" name="apellido1" id="apellido1" maxlength="10" required>                    
+                    <br>
+                    <label for="apellido1">Segundo Apellido:</label>
+                    <input type="text" name="apellido2" id="apellido2" maxlength="10">
+                    <br>
+                    <label for="fecha">Fecha de Nacimiento:</label>
+                    <input type="date" name="fecha" id="fecha" required>
+                    <br>
+                    <label for="telefono">Teléfono Movil:</label>
+                    <input type="text" max="12" name="telefono" id="telefono" maxlength="12">                    
+                    <br>
+                    <label for="direcion">Dirección:</label>
+                    <textarea rows="2" cols="16"></textarea>
+                    <br>
+                    </div>
+                    <div id="envio">
+                        <input type="submit" value="Registrarse">
+                        <input type="reset" value="Borrar">
+                    </div>
+                    </div>
+                </div>
+            </form>
+        </main>
+            <footer>
+                <p>Página web realizada por Juan Carlos Gutiérrez García<a href="mailto:juancarlosgutierrezgarcia@gmail.com"style="color:white">(juancarlosgutierrezgarcia@gmail.com)</a></p>
+                <p>&copy; 2019 Todo los derechos reservados</p>
+        </footer>
+        <div id="fondo"></div>
+    </div>
+    <img id="franja" src="../img/franja.png" alt="">
+</body>

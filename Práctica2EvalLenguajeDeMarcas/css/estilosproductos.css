@@ -1,0 +1,28 @@
+@import "estilosplantilla.css";
+
+body table{
+    border: 2px solid black;
+    border-collapse: collapse;
+}
+body table td{
+    border-top: 2px solid black;
+    border-collapse: collapse;
+}
+#detalle{
+    font-size: smaller;
+    margin-left: 0.5rem;
+}
+body table img{
+    border: 3px solid rgb(172,25,31);
+    margin-top: 0.5rem;
+}
+body main{
+    background-position: fixed;
+    height:58vh;
+    width: 89vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    background-image:url(../img/fondocalderon2.png);
+}

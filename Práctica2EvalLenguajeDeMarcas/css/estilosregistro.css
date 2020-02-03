@@ -1,0 +1,36 @@
+@import "estilosplantilla.css";
+
+body div#formulario{
+    text-align: right;
+    height: 20rem;
+    width: 70rem;
+    font-size: smaller;
+    margin-right: 1rem;
+}
+body #formulario2 textarea{
+    border: 5px solid rgb(172,25,31);
+}
+body #formulario2 input{
+    border: 5px solid rgb(172,25,31);
+}
+body main{
+    background-position: fixed;
+    height:58vh;
+    width: 89vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    line-height: 2;
+    background-image:url(../img/fondoluis2.PNG);
+}
+main h2{
+    color:white;
+    font-family: 'Indie Flower', cursive;
+    font-size: xx-large;
+    margin-left: 2rem;
+    justify-content: center;
+    margin-top: -2rem;
+}
+
+
+
